@@ -1,7 +1,7 @@
 
 <?php
 class additem
-{
+{   //echo
     public $cuisinearr,$foodtypearr,$arr1,$arr2;
     public $pdo;
     public function __construct() 
