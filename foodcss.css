@@ -1,0 +1,153 @@
+.main1
+{
+    margin: 0px auto;
+    text-align: center;
+
+}
+.main1 h4
+{
+    font-size: large;
+    font-weight: bolder;
+}
+.airport-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.card-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.card-top-row .item {
+    min-width: 80px;
+    text-align: center;
+}
+
+.card-top-row h4, .card-top-row h6 {
+    margin: 0;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.unavailable {
+    color: red;
+    font-weight: bold;
+}
+
+.action-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #a71d2a;
+}
+
+.searchform {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.searchform form {
+    display: inline-block;
+}
+
+.searchform input[type="text"] {
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.searchform input[type="submit"] {
+    padding: 6px 12px;
+    color:#fff;
+    font-size: 14px;
+    border: 1px solid #989696;
+    background-color: #941212;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.searchform input[type="submit"]:hover {
+    background-color: #ddd;
+    color: #1e1d1d;
+}
+
+.footer {
+    width:100%;
+    margin: 0% auto;
+    background-color: #1e1d1d;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer p{
+    color: white;
+}
+
+
+.footer-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/* @media (max-width: 600px) {
+    .airport-card {
+        padding: 10px;
+    }
+    .card-top-row {
+        flex-direction: column;
+    }
+} */
